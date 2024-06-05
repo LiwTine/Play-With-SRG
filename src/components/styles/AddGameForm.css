@@ -1,0 +1,45 @@
+/* src/components/AddGameForm.css */
+
+.add-game-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2; /* Світло-сірий колір для фону форми */
+  border-radius: 10px; /* Закруглені кути для форми */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тінь форми */
+}
+
+.add-game-form {
+  background-color: #ffffff; /* Білий колір для фону самої форми */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.add-game-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333333; /* Темно-сірий колір для тексту міток */
+}
+
+.add-game-form input[type="text"],
+.add-game-form textarea,
+.add-game-form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cc0000; /* Червоний колір для обведення полів вводу */
+  background-color: #ffffff; /* Білий колір для полів вводу */
+  color: #333333; /* Темно-сірий колір для тексту у полях вводу */
+}
+
+.add-game-form button {
+  padding: 10px 20px;
+  background-color: #cc0000; /* Червоний колір для кнопки "Submit" */
+  border: none;
+  color: #ffffff; /* Білий колір для тексту на кнопці "Submit" */
+  cursor: pointer;
+}
+
+.add-game-form button:hover {
+  background-color: #990000; /* Зміна кольору кнопки "Submit" при наведенні */
+}

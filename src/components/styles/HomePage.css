@@ -1,0 +1,50 @@
+/* src/components/HomePage.css */
+
+body {
+  font-family: "Roboto", sans-serif; /* Використовуємо шрифт Roboto або інший санс-серіфний шрифт */
+  background-color: #444444; /* Темно-сірий колір для фону всієї сторінки */
+  color: #333333; /* Темно-сірий колір для тексту */
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.home-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2; /* Світло-сірий колір для фону контенту */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тінь блока контенту */
+  border-radius: 10px; /* Закруглені кути для блока контенту */
+}
+
+h1 {
+  font-size: 36px; /* Збільшуємо розмір заголовку */
+  color: #333333; /* Темно-сірий колір для заголовків */
+}
+
+.add-game-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  color: #ffffff; /* Білий колір для тексту посилання */
+  background-color: #cc0000; /* Червоний колір для фону посилання */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-game-link:hover {
+  background-color: #990000; /* Зміна кольору при наведенні на посилання */
+}
+.search-input {
+  /* Ваші стилі тут */
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 300px;
+}

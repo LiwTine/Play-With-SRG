@@ -1,0 +1,51 @@
+/* src/components/GameList.css */
+
+.game-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-item {
+  background-color: #333333; /* темний колір для фону елементів */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.game-item h2 {
+  color: #ffffff; /* червоний колір для назв гри */
+}
+
+.game-item p {
+  color: #ffffff; /* білий колір для опису гри */
+  font-size: 24px;
+}
+
+.game-item .rating {
+  font-weight: bold;
+}
+
+.game-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.game-item p:last-child {
+  margin-top: 10px;
+}
+
+.game-list-container ul {
+  padding: 0;
+  list-style-type: none; /* Вимикаємо маркери списку */
+}
+
+.game-list-container li {
+  margin-bottom: 20px;
+}
+
+.game-list-container img {
+  max-width: 200px;
+  height: auto;
+}
